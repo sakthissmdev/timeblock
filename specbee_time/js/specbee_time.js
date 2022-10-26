@@ -18,7 +18,9 @@
                 minute: 'numeric',
             });
             var time = formatter.format(new Date()); 
+            //updating date
             var date = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', }).format(new Date());  
+            //rendering the updated date and time using selector.
             $(".time-details").html(time);
             $(".date-details").html(date);
         },1000);
