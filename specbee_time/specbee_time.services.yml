@@ -2,3 +2,4 @@ services:
   time.get_time:
     class: Drupal\specbee_time\GetTime
     arguments: ['@date.formatter', '@datetime.time']
+    

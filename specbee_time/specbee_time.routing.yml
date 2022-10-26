@@ -5,3 +5,4 @@ timer.admin_settings:
     _title: 'Timer configuration'
   requirements:
     _permission: 'administer site configuration'
+    
