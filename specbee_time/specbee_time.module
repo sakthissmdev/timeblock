@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Hook implementations for Display time module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function specbee_time_theme() {
+  return [
+    'specbee_time' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'output_time' => NULL,
+        'output_date' => NULL,
+        'timezone' => NULL,
+      ],
+    ],
+  ];
+}
+
+

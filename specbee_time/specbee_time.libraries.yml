@@ -1,0 +1,8 @@
+specbee_time_lib:
+  version: 1.0
+  js:
+    js/specbee_time.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

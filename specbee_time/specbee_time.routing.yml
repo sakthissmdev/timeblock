@@ -1,0 +1,7 @@
+timer.admin_settings:
+  path: '/admin/config/timesettings'
+  defaults:
+    _form: '\Drupal\specbee_time\Form\TimerSettingForm'
+    _title: 'Timer configuration'
+  requirements:
+    _permission: 'administer site configuration'

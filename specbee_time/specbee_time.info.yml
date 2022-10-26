@@ -1,0 +1,8 @@
+name: My Timer
+description: 'Module used for display Time'
+package: specbee
+type: module
+core_version_requirement: ^8 || ^9
+configure: timer.admin_settings
+dependencies:
+  - drupal:block
